@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react"
+import Layout from "../components/layout"
 
 const About = () => {
   return (
-    <div>
-      <h1>Abuot page</h1>
-      <p>some lorem text</p>
-      <p>some lorem text</p>
-      <p>some lorem text</p>
-    </div>
+    <Layout>
+      <div>
+        <h1>Abuot page</h1>
+        <p>some lorem text</p>
+        <p>some lorem text</p>
+        <p>some lorem text</p>
+      </div>
+    </Layout>
   )
 }
 
